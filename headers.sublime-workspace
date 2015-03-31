@@ -1,0 +1,368 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"n",
+				"n"
+			],
+			[
+				"rand",
+				"randNum"
+			],
+			[
+				"virtua",
+				"virtualEye"
+			],
+			[
+				"virtu",
+				"virtualEye"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "headers/Task.hpp",
+			"settings":
+			{
+				"buffer_size": 947,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "headers/Burst.hpp",
+			"settings":
+			{
+				"buffer_size": 797,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "headers/Scheduler.hpp",
+			"settings":
+			{
+				"buffer_size": 1763,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/kevin/Documents/CS3100/MemoryScheduling/headers"
+	],
+	"file_history":
+	[
+		"/opt/lampp/htdocs/nileinventorysystems/template.php",
+		"/home/kevin/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/kevin/Documents/USUb/Poseidon/virtualAPI/vvTestRun.rb",
+		"/home/kevin/Documents/USUb/testCode.rb",
+		"/home/kevin/Documents/USUb/Poseidon/virtualAPI/virtualVision.rb",
+		"/home/kevin/Documents/CS3100/CS3100_MemoryScheduling/README.md",
+		"/home/kevin/Documents/CS3000/Master's-Thesis/MSThesisExample/MSThesisExample/thesis.bib",
+		"/home/kevin/Documents/USUb/testAPI/MockDiveMaster.rb",
+		"/home/kevin/Documents/CS3100/Assignment7/CS3100_Assignment6/ASJQueue.hpp",
+		"/home/kevin/Documents/CS3100/Assignment7/CS3100_Assignment6/SJQueue.hpp",
+		"/home/kevin/Documents/CS3100/Assignment7/CS3100_Assignment6/Task.hpp",
+		"/home/kevin/Documents/CS3100/Assignment7/CS3100_Assignment6/Scheduler.hpp",
+		"/home/kevin/Documents/CS3100/Assignment7/CS3100_Assignment6/RRQueue.hpp",
+		"/home/kevin/Documents/CS3100/Assignment7/CS3100_Assignment6/ReadyQueue.hpp",
+		"/home/kevin/Documents/CS3100/Assignment7/CS3100_Assignment6/Processor.hpp",
+		"/home/kevin/Documents/CS3100/Assignment7/CS3100_Assignment6/Event.hpp",
+		"/home/kevin/Documents/CS3000/createPlot",
+		"/home/kevin/Documents/CS3100/Assignment7/CS3100_Assignment6/README.md",
+		"/home/kevin/Documents/CS3100/Assignment7/CS3100_Assignment6/Burst.hpp",
+		"/home/kevin/Documents/CS3100/Assignment7/CS3100_Assignment6/EventQueue.hpp",
+		"/home/kevin/Documents/CS3100/Assignment7/CS3100_Assignment6/IOQueues.hpp",
+		"/home/kevin/AUR/spotify-gnome-git/src/spotify-gnome/README.md",
+		"/home/kevin/AUR/spotify/spotify.install",
+		"/home/kevin/AUR/spotify/spotify.changelog",
+		"/home/kevin/AUR/spotify/PKGBUILD",
+		"/home/kevin/AUR/spotify/spotify",
+		"/home/kevin/Documents/CS3100/CS3100_Assignment6/sources.sublime-workspace",
+		"/home/kevin/Desktop/Visual Paradigm 12.0.desktop",
+		"/home/kevin/Themes/paper-gtk-theme/install.sh",
+		"/home/kevin/.local/share/themes/paper-gtk-theme/INSTALL",
+		"/home/kevin/Themes/Minty/README",
+		"/home/kevin/Documents/CS3100/CS3100_Assignment6/main.cpp"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Task*"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"std::shared_ptr<Task>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "headers/Task.hpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 947,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "headers/Burst.hpp",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 797,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "headers/Scheduler.hpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1763,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				2
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.39465648855,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "headers.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 2,
+	"settings":
+	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				2
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		]
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 162.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

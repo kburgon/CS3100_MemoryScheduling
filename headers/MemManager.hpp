@@ -14,6 +14,8 @@ public:
 	void loadMemory(std::shared_ptr<Task>);
 	double getPageFaultCost();
 private:
+	bool isInMemory(int);
+	void pushMemItem(int);
 	int memSize;
 	double faultCost;
 	double totalCost;

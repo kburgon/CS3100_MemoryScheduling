@@ -24,7 +24,7 @@ void MemManager::loadMemory(std::shared_ptr<Task> curTask)
 	else
 	{
 		std::vector<int> taskMemRef = curTask->getRequiredMemory();
-		for (auto&& memSpace:memory)
+		for (auto&& memSpace:taskMemRef)
 		{
 
 		}
@@ -34,4 +34,10 @@ void MemManager::loadMemory(std::shared_ptr<Task> curTask)
 double MemManager::getPageFaultCost()
 {
 	return 0.5;
+}
+
+bool MemManager::isInMemory(int memItem)
+{
+	// std::find(memItem)
+	// 	if not found return false
 }

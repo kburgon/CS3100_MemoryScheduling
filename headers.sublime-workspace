@@ -24,18 +24,18 @@
 	"buffers":
 	[
 		{
-			"file": "headers/Task.hpp",
+			"file": "headers/MemManager.hpp",
 			"settings":
 			{
-				"buffer_size": 947,
+				"buffer_size": 409,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "headers/Burst.hpp",
+			"file": "headers/Task.hpp",
 			"settings":
 			{
-				"buffer_size": 797,
+				"buffer_size": 986,
 				"line_ending": "Unix"
 			}
 		},
@@ -44,6 +44,14 @@
 			"settings":
 			{
 				"buffer_size": 1763,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "headers/ASJQueue.hpp",
+			"settings":
+			{
+				"buffer_size": 376,
 				"line_ending": "Unix"
 			}
 		}
@@ -152,31 +160,30 @@
 			[
 				{
 					"buffer": 0,
-					"file": "headers/Task.hpp",
+					"file": "headers/MemManager.hpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 947,
+						"buffer_size": 409,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								294,
+								294
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/C++/C++.tmLanguage"
 						},
-						"translation.x": -0.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -187,19 +194,19 @@
 			[
 				{
 					"buffer": 1,
-					"file": "headers/Burst.hpp",
-					"semi_transient": true,
+					"file": "headers/Task.hpp",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 797,
+						"buffer_size": 986,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								917,
+								917
 							]
 						],
 						"settings":
@@ -211,15 +218,9 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 2,
 					"file": "headers/Scheduler.hpp",
@@ -246,7 +247,35 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "headers/ASJQueue.hpp",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 376,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -268,19 +297,13 @@
 				0,
 				0,
 				1,
-				2
+				1
 			],
 			[
 				1,
 				0,
 				2,
 				1
-			],
-			[
-				1,
-				1,
-				2,
-				2
 			]
 		],
 		"cols":
@@ -292,7 +315,6 @@
 		"rows":
 		[
 			0.0,
-			0.39465648855,
 			1.0
 		]
 	},
@@ -331,7 +353,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 2,
+	"selected_group": 0,
 	"settings":
 	{
 		"last_automatic_layout":
@@ -340,19 +362,13 @@
 				0,
 				0,
 				1,
-				2
+				1
 			],
 			[
 				1,
 				0,
 				2,
 				1
-			],
-			[
-				1,
-				1,
-				2,
-				2
 			]
 		]
 	},
@@ -360,7 +376,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 162.0,
+	"side_bar_width": 166.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -24,10 +24,18 @@
 	"buffers":
 	[
 		{
-			"file": "sources/Burst.cpp",
+			"file": "sources/MemManager.cpp",
 			"settings":
 			{
-				"buffer_size": 1624,
+				"buffer_size": 681,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sources/Task.cpp",
+			"settings":
+			{
+				"buffer_size": 3622,
 				"line_ending": "Unix"
 			}
 		},
@@ -144,31 +152,30 @@
 			[
 				{
 					"buffer": 0,
-					"file": "sources/Burst.cpp",
-					"semi_transient": true,
+					"file": "sources/MemManager.cpp",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1624,
+						"buffer_size": 681,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								679,
+								679
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/C++/C++.tmLanguage"
 						},
-						"translation.x": -0.0,
-						"translation.y": 0.0,
+						"translation.x": 0.0,
+						"translation.y": 297.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -179,6 +186,35 @@
 			[
 				{
 					"buffer": 1,
+					"file": "sources/Task.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3622,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3622,
+								3622
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2385.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "sources/Scheduler.cpp",
 					"semi_transient": true,
 					"settings":
@@ -190,8 +226,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								155,
+								155
 							]
 						],
 						"settings":
@@ -203,7 +239,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -281,7 +317,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
@@ -289,7 +325,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 161.0,
+	"side_bar_width": 165.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -40,6 +40,7 @@ public:
 	void setRemainingInterruptTime(double);
 	double getRemainingInterruptTime();
 	std::vector<int> getRequiredMemory();
+	int getMemSize();
 	bool operator>(Task) const;
 	bool operator<(Task) const;
 };

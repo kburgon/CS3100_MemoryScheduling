@@ -57,6 +57,8 @@ vector
 -
 Task.hpp
 /home/kevin/Documents/CS3100/MemoryScheduling/headers/Task.hpp
+algorithm
+-
 
 /home/kevin/Documents/CS3100/MemoryScheduling/headers/Processor.hpp
 Scheduler.hpp

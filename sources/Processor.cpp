@@ -69,20 +69,20 @@ void Processor::startShell()
 			mainScheduler.init();
 			sessionResults = mainScheduler.getData();
 			printResults(sessionResults);
-			std::cout << "Pausing..\n";
-			std::cin >> cmd;
-			std::shared_ptr<RRQueue> roundRobin = std::make_shared<RRQueue>(setInterruptTime);
-			Scheduler roundRScheduler(roundRobin);
-			roundRScheduler.init();
-			roundResults = roundRScheduler.getData();
-			printResults(roundResults);
-			std::cout << "Pausing..\n";
-			std::cin >> cmd;
-			std::shared_ptr<ASJQueue> asjQ = std::make_shared<ASJQueue>();
-			Scheduler ASJScheduler(asjQ);
-			ASJScheduler.init();
-			asjResults = ASJScheduler.getData();
-			printResults(asjResults);
+			// std::cout << "Pausing..\n";
+			// std::cin >> cmd;
+			// std::shared_ptr<RRQueue> roundRobin = std::make_shared<RRQueue>(setInterruptTime);
+			// Scheduler roundRScheduler(roundRobin);
+			// roundRScheduler.init();
+			// roundResults = roundRScheduler.getData();
+			// printResults(roundResults);
+			// std::cout << "Pausing..\n";
+			// std::cin >> cmd;
+			// std::shared_ptr<ASJQueue> asjQ = std::make_shared<ASJQueue>();
+			// Scheduler ASJScheduler(asjQ);
+			// ASJScheduler.init();
+			// asjResults = ASJScheduler.getData();
+			// printResults(asjResults);
 		}
 		else
 		{

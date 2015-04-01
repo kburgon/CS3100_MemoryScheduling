@@ -5,6 +5,7 @@
 #include <memory>
 #include <vector>
 #include "Task.hpp"
+#include <algorithm>
 
 class MemManager
 {
@@ -15,8 +16,10 @@ public:
 	double getPageFaultCost();
 private:
 	bool isInMemory(int);
-	void pushMemItem(int);
+	// void pushMemItem(int);
+	void pushPage(int);
 	int memSize;
+	int curPageLoc;
 	double faultCost;
 	double totalCost;
 	std::vector<int> memory;

@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/kevin/Documents/CS3100/MemoryScheduling/sources/Event.cpp" "/home/kevin/Documents/CS3100/MemoryScheduling/CMakeFiles/SchedulerSimulator.dir/sources/Event.cpp.o"
   "/home/kevin/Documents/CS3100/MemoryScheduling/sources/EventQueue.cpp" "/home/kevin/Documents/CS3100/MemoryScheduling/CMakeFiles/SchedulerSimulator.dir/sources/EventQueue.cpp.o"
   "/home/kevin/Documents/CS3100/MemoryScheduling/sources/IOQueues.cpp" "/home/kevin/Documents/CS3100/MemoryScheduling/CMakeFiles/SchedulerSimulator.dir/sources/IOQueues.cpp.o"
+  "/home/kevin/Documents/CS3100/MemoryScheduling/sources/MemManager.cpp" "/home/kevin/Documents/CS3100/MemoryScheduling/CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.o"
   "/home/kevin/Documents/CS3100/MemoryScheduling/sources/Processor.cpp" "/home/kevin/Documents/CS3100/MemoryScheduling/CMakeFiles/SchedulerSimulator.dir/sources/Processor.cpp.o"
   "/home/kevin/Documents/CS3100/MemoryScheduling/sources/RRQueue.cpp" "/home/kevin/Documents/CS3100/MemoryScheduling/CMakeFiles/SchedulerSimulator.dir/sources/RRQueue.cpp.o"
   "/home/kevin/Documents/CS3100/MemoryScheduling/sources/ReadyQueue.cpp" "/home/kevin/Documents/CS3100/MemoryScheduling/CMakeFiles/SchedulerSimulator.dir/sources/ReadyQueue.cpp.o"

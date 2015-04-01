@@ -175,3 +175,8 @@ bool Task::operator<(Task toCompare) const
 		return true;
 	return false;
 }
+
+std::vector<int> Task::getRequiredMemory()
+{
+	std::vector<int> testMem(10, 5);
+}

@@ -48,6 +48,16 @@ vector
 iostream
 -
 
+/home/kevin/Documents/CS3100/MemoryScheduling/headers/MemManager.hpp
+iostream
+-
+memory
+-
+vector
+-
+Task.hpp
+/home/kevin/Documents/CS3100/MemoryScheduling/headers/Task.hpp
+
 /home/kevin/Documents/CS3100/MemoryScheduling/headers/Processor.hpp
 Scheduler.hpp
 /home/kevin/Documents/CS3100/MemoryScheduling/headers/Scheduler.hpp
@@ -121,6 +131,10 @@ vector
 /home/kevin/Documents/CS3100/MemoryScheduling/sources/IOQueues.cpp
 ../headers/IOQueues.hpp
 /home/kevin/Documents/CS3100/MemoryScheduling/headers/IOQueues.hpp
+
+/home/kevin/Documents/CS3100/MemoryScheduling/sources/MemManager.cpp
+../headers/MemManager.hpp
+/home/kevin/Documents/CS3100/MemoryScheduling/headers/MemManager.hpp
 
 /home/kevin/Documents/CS3100/MemoryScheduling/sources/Processor.cpp
 ../headers/Processor.hpp

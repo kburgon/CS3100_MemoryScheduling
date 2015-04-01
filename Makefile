@@ -234,6 +234,30 @@ sources/IOQueues.cpp.s:
 	$(MAKE) -f CMakeFiles/SchedulerSimulator.dir/build.make CMakeFiles/SchedulerSimulator.dir/sources/IOQueues.cpp.s
 .PHONY : sources/IOQueues.cpp.s
 
+sources/MemManager.o: sources/MemManager.cpp.o
+.PHONY : sources/MemManager.o
+
+# target to build an object file
+sources/MemManager.cpp.o:
+	$(MAKE) -f CMakeFiles/SchedulerSimulator.dir/build.make CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.o
+.PHONY : sources/MemManager.cpp.o
+
+sources/MemManager.i: sources/MemManager.cpp.i
+.PHONY : sources/MemManager.i
+
+# target to preprocess a source file
+sources/MemManager.cpp.i:
+	$(MAKE) -f CMakeFiles/SchedulerSimulator.dir/build.make CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.i
+.PHONY : sources/MemManager.cpp.i
+
+sources/MemManager.s: sources/MemManager.cpp.s
+.PHONY : sources/MemManager.s
+
+# target to generate assembly for a file
+sources/MemManager.cpp.s:
+	$(MAKE) -f CMakeFiles/SchedulerSimulator.dir/build.make CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.s
+.PHONY : sources/MemManager.cpp.s
+
 sources/Processor.o: sources/Processor.cpp.o
 .PHONY : sources/Processor.o
 
@@ -426,6 +450,9 @@ help:
 	@echo "... sources/IOQueues.o"
 	@echo "... sources/IOQueues.i"
 	@echo "... sources/IOQueues.s"
+	@echo "... sources/MemManager.o"
+	@echo "... sources/MemManager.i"
+	@echo "... sources/MemManager.s"
 	@echo "... sources/Processor.o"
 	@echo "... sources/Processor.i"
 	@echo "... sources/Processor.s"

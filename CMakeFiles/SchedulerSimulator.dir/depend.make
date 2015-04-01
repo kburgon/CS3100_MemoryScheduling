@@ -26,6 +26,11 @@ CMakeFiles/SchedulerSimulator.dir/sources/IOQueues.cpp.o: headers/IOQueues.hpp
 CMakeFiles/SchedulerSimulator.dir/sources/IOQueues.cpp.o: headers/Task.hpp
 CMakeFiles/SchedulerSimulator.dir/sources/IOQueues.cpp.o: sources/IOQueues.cpp
 
+CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.o: headers/Burst.hpp
+CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.o: headers/MemManager.hpp
+CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.o: headers/Task.hpp
+CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.o: sources/MemManager.cpp
+
 CMakeFiles/SchedulerSimulator.dir/sources/Processor.cpp.o: headers/ASJQueue.hpp
 CMakeFiles/SchedulerSimulator.dir/sources/Processor.cpp.o: headers/Burst.hpp
 CMakeFiles/SchedulerSimulator.dir/sources/Processor.cpp.o: headers/Event.hpp

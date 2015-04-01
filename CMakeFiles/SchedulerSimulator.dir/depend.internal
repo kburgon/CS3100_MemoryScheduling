@@ -26,6 +26,11 @@ CMakeFiles/SchedulerSimulator.dir/sources/IOQueues.cpp.o
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/IOQueues.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/Task.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/sources/IOQueues.cpp
+CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.o
+ /home/kevin/Documents/CS3100/MemoryScheduling/headers/Burst.hpp
+ /home/kevin/Documents/CS3100/MemoryScheduling/headers/MemManager.hpp
+ /home/kevin/Documents/CS3100/MemoryScheduling/headers/Task.hpp
+ /home/kevin/Documents/CS3100/MemoryScheduling/sources/MemManager.cpp
 CMakeFiles/SchedulerSimulator.dir/sources/Processor.cpp.o
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/ASJQueue.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/Burst.hpp

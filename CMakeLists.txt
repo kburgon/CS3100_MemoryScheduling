@@ -24,6 +24,8 @@ set(Sources
 	./sources/SJQueue.cpp
 	./headers/ASJQueue.hpp
 	./sources/ASJQueue.cpp
+	./headers/MemManager.hpp
+	./sources/MemManager.cpp
 )
 
 set(CMAKE_CXX_FLAGS --std=c++11)

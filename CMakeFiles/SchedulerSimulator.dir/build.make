@@ -325,6 +325,29 @@ CMakeFiles/SchedulerSimulator.dir/sources/ASJQueue.cpp.o.provides: CMakeFiles/Sc
 
 CMakeFiles/SchedulerSimulator.dir/sources/ASJQueue.cpp.o.provides.build: CMakeFiles/SchedulerSimulator.dir/sources/ASJQueue.cpp.o
 
+CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.o: CMakeFiles/SchedulerSimulator.dir/flags.make
+CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.o: sources/MemManager.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Documents/CS3100/MemoryScheduling/CMakeFiles $(CMAKE_PROGRESS_13)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.o -c /home/kevin/Documents/CS3100/MemoryScheduling/sources/MemManager.cpp
+
+CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Documents/CS3100/MemoryScheduling/sources/MemManager.cpp > CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.i
+
+CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Documents/CS3100/MemoryScheduling/sources/MemManager.cpp -o CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.s
+
+CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.o.requires:
+.PHONY : CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.o.requires
+
+CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.o.provides: CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.o.requires
+	$(MAKE) -f CMakeFiles/SchedulerSimulator.dir/build.make CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.o.provides.build
+.PHONY : CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.o.provides
+
+CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.o.provides.build: CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.o
+
 # Object files for target SchedulerSimulator
 SchedulerSimulator_OBJECTS = \
 "CMakeFiles/SchedulerSimulator.dir/sources/main.cpp.o" \
@@ -338,7 +361,8 @@ SchedulerSimulator_OBJECTS = \
 "CMakeFiles/SchedulerSimulator.dir/sources/ReadyQueue.cpp.o" \
 "CMakeFiles/SchedulerSimulator.dir/sources/IOQueues.cpp.o" \
 "CMakeFiles/SchedulerSimulator.dir/sources/SJQueue.cpp.o" \
-"CMakeFiles/SchedulerSimulator.dir/sources/ASJQueue.cpp.o"
+"CMakeFiles/SchedulerSimulator.dir/sources/ASJQueue.cpp.o" \
+"CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.o"
 
 # External object files for target SchedulerSimulator
 SchedulerSimulator_EXTERNAL_OBJECTS =
@@ -355,6 +379,7 @@ SchedulerSimulator: CMakeFiles/SchedulerSimulator.dir/sources/ReadyQueue.cpp.o
 SchedulerSimulator: CMakeFiles/SchedulerSimulator.dir/sources/IOQueues.cpp.o
 SchedulerSimulator: CMakeFiles/SchedulerSimulator.dir/sources/SJQueue.cpp.o
 SchedulerSimulator: CMakeFiles/SchedulerSimulator.dir/sources/ASJQueue.cpp.o
+SchedulerSimulator: CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.o
 SchedulerSimulator: CMakeFiles/SchedulerSimulator.dir/build.make
 SchedulerSimulator: CMakeFiles/SchedulerSimulator.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable SchedulerSimulator"
@@ -376,6 +401,7 @@ CMakeFiles/SchedulerSimulator.dir/requires: CMakeFiles/SchedulerSimulator.dir/so
 CMakeFiles/SchedulerSimulator.dir/requires: CMakeFiles/SchedulerSimulator.dir/sources/IOQueues.cpp.o.requires
 CMakeFiles/SchedulerSimulator.dir/requires: CMakeFiles/SchedulerSimulator.dir/sources/SJQueue.cpp.o.requires
 CMakeFiles/SchedulerSimulator.dir/requires: CMakeFiles/SchedulerSimulator.dir/sources/ASJQueue.cpp.o.requires
+CMakeFiles/SchedulerSimulator.dir/requires: CMakeFiles/SchedulerSimulator.dir/sources/MemManager.cpp.o.requires
 .PHONY : CMakeFiles/SchedulerSimulator.dir/requires
 
 CMakeFiles/SchedulerSimulator.dir/clean:

@@ -39,6 +39,7 @@ public:
 	std::vector<Burst> assignBursts();
 	void setRemainingInterruptTime(double);
 	double getRemainingInterruptTime();
+	std::vector<int> getRequiredMemory();
 	bool operator>(Task) const;
 	bool operator<(Task) const;
 };

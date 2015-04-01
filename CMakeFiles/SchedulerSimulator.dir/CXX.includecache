@@ -105,6 +105,8 @@ ReadyQueue.hpp
 /home/kevin/Documents/CS3100/MemoryScheduling/headers/ReadyQueue.hpp
 IOQueues.hpp
 /home/kevin/Documents/CS3100/MemoryScheduling/headers/IOQueues.hpp
+MemManager.hpp
+/home/kevin/Documents/CS3100/MemoryScheduling/headers/MemManager.hpp
 
 /home/kevin/Documents/CS3100/MemoryScheduling/headers/Task.hpp
 Burst.hpp

@@ -36,6 +36,7 @@ CMakeFiles/SchedulerSimulator.dir/sources/Processor.cpp.o: headers/Burst.hpp
 CMakeFiles/SchedulerSimulator.dir/sources/Processor.cpp.o: headers/Event.hpp
 CMakeFiles/SchedulerSimulator.dir/sources/Processor.cpp.o: headers/EventQueue.hpp
 CMakeFiles/SchedulerSimulator.dir/sources/Processor.cpp.o: headers/IOQueues.hpp
+CMakeFiles/SchedulerSimulator.dir/sources/Processor.cpp.o: headers/MemManager.hpp
 CMakeFiles/SchedulerSimulator.dir/sources/Processor.cpp.o: headers/Processor.hpp
 CMakeFiles/SchedulerSimulator.dir/sources/Processor.cpp.o: headers/RRQueue.hpp
 CMakeFiles/SchedulerSimulator.dir/sources/Processor.cpp.o: headers/ReadyQueue.hpp
@@ -60,6 +61,7 @@ CMakeFiles/SchedulerSimulator.dir/sources/Scheduler.cpp.o: headers/Burst.hpp
 CMakeFiles/SchedulerSimulator.dir/sources/Scheduler.cpp.o: headers/Event.hpp
 CMakeFiles/SchedulerSimulator.dir/sources/Scheduler.cpp.o: headers/EventQueue.hpp
 CMakeFiles/SchedulerSimulator.dir/sources/Scheduler.cpp.o: headers/IOQueues.hpp
+CMakeFiles/SchedulerSimulator.dir/sources/Scheduler.cpp.o: headers/MemManager.hpp
 CMakeFiles/SchedulerSimulator.dir/sources/Scheduler.cpp.o: headers/ReadyQueue.hpp
 CMakeFiles/SchedulerSimulator.dir/sources/Scheduler.cpp.o: headers/Scheduler.hpp
 CMakeFiles/SchedulerSimulator.dir/sources/Scheduler.cpp.o: headers/Task.hpp
@@ -74,6 +76,7 @@ CMakeFiles/SchedulerSimulator.dir/sources/main.cpp.o: headers/Burst.hpp
 CMakeFiles/SchedulerSimulator.dir/sources/main.cpp.o: headers/Event.hpp
 CMakeFiles/SchedulerSimulator.dir/sources/main.cpp.o: headers/EventQueue.hpp
 CMakeFiles/SchedulerSimulator.dir/sources/main.cpp.o: headers/IOQueues.hpp
+CMakeFiles/SchedulerSimulator.dir/sources/main.cpp.o: headers/MemManager.hpp
 CMakeFiles/SchedulerSimulator.dir/sources/main.cpp.o: headers/Processor.hpp
 CMakeFiles/SchedulerSimulator.dir/sources/main.cpp.o: headers/RRQueue.hpp
 CMakeFiles/SchedulerSimulator.dir/sources/main.cpp.o: headers/ReadyQueue.hpp

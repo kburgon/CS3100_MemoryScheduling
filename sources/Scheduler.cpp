@@ -50,7 +50,7 @@ void Scheduler::setNumIoDevices(int numDevices)
 	numOfIoDevs = numDevices;
 }
 
-void Scheduler::init()
+void Scheduler::init() // issue:  not adding context swith or page fault to init
 {
 	createTaskBinding();
 	ioDevQueue.createQueues(numOfIoDevs);
@@ -109,6 +109,7 @@ void Scheduler::handleCpuEvent(std::shared_ptr<Task> eventTask)
 	eventTask->endBurst(curTime);
 	std::shared_ptr<Task> toEx;
 	Event eToEx;
+	double pfCost;
 	if (numCpus < maxNumCpus)
 		numCpus++;
 	double newEventTime;
@@ -118,7 +119,9 @@ void Scheduler::handleCpuEvent(std::shared_ptr<Task> eventTask)
 		std::cout << "Number of cpus avaiable: " << numCpus << std::endl;
 		std::cout << "\n\nFilling cpus...\n\n";
 		toEx = rQueue->pullTask();
-		newEventTime = curTime + cntxtSwitchCost + eventTask->getBurstTime();
+		memRef.loadMemory(toEx);
+		pfCost = memRef.getPageFaultCost();
+		newEventTime = curTime + cntxtSwitchCost + pfCost + eventTask->getBurstTime();
 		eToEx = Event(toEx, newEventTime, false);
 		eQueue.addEvent(eToEx);
 		numCpus--;
@@ -157,7 +160,9 @@ void Scheduler::execTask(std::shared_ptr<Task> exTask)
 		{
 			std::cout << "There are " << numCpus << " cpus left. Filling...\n";
 			std::shared_ptr<Task> toExec = rQueue->pullTask();
-			double timeToEvent = cntxtSwitchCost + toExec->getBurstTime();
+			memRef.loadMemory(toExec);
+			double pfCost = memRef.getPageFaultCost();
+			double timeToEvent = cntxtSwitchCost + pfCost + toExec->getBurstTime();
 			double nextEventTime = curTime + timeToEvent;
 			Event nextEvent(exTask, nextEventTime, false);
 			eQueue.addEvent(nextEvent);

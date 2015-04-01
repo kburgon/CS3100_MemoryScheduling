@@ -7,6 +7,7 @@
 #include "Task.hpp"
 #include "ReadyQueue.hpp"
 #include "IOQueues.hpp"
+#include "MemManager.hpp"
 
 struct Data
 {
@@ -46,6 +47,7 @@ private:
 	EventQueue eQueue;
 	std::shared_ptr<ReadyQueue> rQueue;
 	IOQueues ioDevQueue;
+	MemManager memRef;
 	void createTaskBinding();
 	void createTasks(int);
 	void execIO(std::shared_ptr<Task>);

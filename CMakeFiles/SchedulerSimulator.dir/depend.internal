@@ -37,6 +37,7 @@ CMakeFiles/SchedulerSimulator.dir/sources/Processor.cpp.o
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/Event.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/EventQueue.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/IOQueues.hpp
+ /home/kevin/Documents/CS3100/MemoryScheduling/headers/MemManager.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/Processor.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/RRQueue.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/ReadyQueue.hpp
@@ -61,6 +62,7 @@ CMakeFiles/SchedulerSimulator.dir/sources/Scheduler.cpp.o
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/Event.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/EventQueue.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/IOQueues.hpp
+ /home/kevin/Documents/CS3100/MemoryScheduling/headers/MemManager.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/ReadyQueue.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/Scheduler.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/Task.hpp
@@ -75,6 +77,7 @@ CMakeFiles/SchedulerSimulator.dir/sources/main.cpp.o
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/Event.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/EventQueue.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/IOQueues.hpp
+ /home/kevin/Documents/CS3100/MemoryScheduling/headers/MemManager.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/Processor.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/RRQueue.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/ReadyQueue.hpp

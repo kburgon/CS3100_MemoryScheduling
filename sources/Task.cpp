@@ -33,6 +33,8 @@ Task::Task(int ioDevCnt, double cpuMultiplier, double ioMultiplier)
 	burstInterrupted = false;
 	interruptTimeRemaining = -1;
 	requiredMemSize = 5;
+	setCompareAvg = false;
+	avgBTime = 0;
 	generateMemReq();
 }
 
@@ -64,6 +66,7 @@ void Task::endBurst(int endTime)
 		bursts[curBurstLoc].endBurst(endTime);
 		curBurstLoc++;
 		std::cout << "Advancing to next burst\n";
+		bTimes.push_back(bursts[curBurstLoc].getBurstTime());
 	}
 	else std::cout << "Not advancing to next burst\n";
 	if (curBurstLoc == numOfBursts)
@@ -94,15 +97,17 @@ int Task::getBurstLoc()
 	return curBurstLoc;
 }
 
-double Task::getBurstTime()
+const double Task::getBurstTime() const
 {
 	if (isInterrupted())
 	{
-		return interruptRunTime;
+		const double returnTime = interruptRunTime;
+		return returnTime;
 	}
 	else if (interruptTimeRemaining == -1)
 	{
-		return bursts[curBurstLoc].getBurstTime();	
+		const double returnTime = bursts[curBurstLoc].getBurstTime();
+		return returnTime;	
 	}
 	return interruptTimeRemaining;
 }
@@ -145,7 +150,7 @@ double Task::getFirstResponseTime()
 	return firstResponseTime;
 }
 
-bool Task::isInterrupted()
+bool Task::isInterrupted() const
 {
 	return burstInterrupted;
 }
@@ -170,20 +175,26 @@ double Task::getRemainingInterruptTime()
 	return interruptTimeRemaining;
 }
 
-bool Task::operator>(Task toCompare) const
+bool Task::operator>(const Task& toCompare) const
 {
-	// double taskTime = bursts[curBurstLoc].getBurstTime();
-	if (bursts[curBurstLoc].getBurstTime() > toCompare.getBurstTime())
-		return true;
-	return false;
+	if (!setCompareAvg)
+	{
+		if (bursts[curBurstLoc].getBurstTime() > toCompare.getBurstTime())
+			return true;
+		return false;
+	}
+	return getAvgTime() > toCompare.getAvgTime();	
 }
 
-bool Task::operator<(Task toCompare) const
+bool Task::operator<(const Task& toCompare) const
 {
-	// double taskTime = bursts[curBurstLoc].getBurstTime();
-	if (bursts[curBurstLoc].getBurstTime() < toCompare.getBurstTime())
-		return true;
-	return false;
+	if (!setCompareAvg)
+	{
+		if (bursts[curBurstLoc].getBurstTime() < toCompare.getBurstTime())
+			return true;
+		return false;
+	}
+	return getAvgTime() < toCompare.getAvgTime();
 }
 
 std::vector<int> Task::getRequiredMemory()
@@ -197,4 +208,14 @@ int Task::getMemSize()
 	// std::vector<int> testMem(10, 5);
 	// return testMem.size();
 	return requiredMemSize;
+}
+
+double Task::getAvgTime() const
+{
+	if (!bTimes.empty())
+	{
+		double totalTimes = std::accumulate(bTimes.begin(), bTimes.end(), totalTimes);
+		return totalTimes / bTimes.size();
+	}
+	return 0;
 }

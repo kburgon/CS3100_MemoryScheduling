@@ -62,7 +62,6 @@ void Processor::startShell()
 			// run setter for task create frequency
 			std::cout << "Round robin interrupt time: ";
 			std::cin >> setInterruptTime;
-			std::cout << "Variables set.\n";
 
 			std::cout << "Memory size: ";
 			std::cin >> setInt;
@@ -70,6 +69,7 @@ void Processor::startShell()
 			std::cout << "Page fault length: ";
 			std::cin >> setFloat;
 			mainScheduler.setPfCost(setFloat);
+			std::cout << "Variables set.\n";
 		}
 		else if (cmd == "run")
 		{
@@ -90,6 +90,10 @@ void Processor::startShell()
 			// ASJScheduler.init();
 			// asjResults = ASJScheduler.getData();
 			// printResults(asjResults);
+			std::cin >> cmd;
+			std::shared_ptr<SJQueue> sjQ = std::make_shared<SJQueue>();
+			Scheduler sjScheduler(sjQ);
+			sjScheduler.init();
 		}
 		else
 		{

@@ -4,10 +4,15 @@
 #include "Burst.hpp"
 #include <iostream>
 #include <vector>
+#include <memory>
+#include <algorithm>
 
 class Task
 {
 private:
+	bool setCompareAvg;
+	std::vector<double> bTimes;
+	double avgBTime;
 	double interruptRunTime;
 	double interruptTimeRemaining;
 	bool burstInterrupted;
@@ -32,11 +37,11 @@ public:
 	bool curBurstIo();
 	void setCreateTime(double);
 	int getIoWaitLoc();
-	double getBurstTime();
+	const double getBurstTime() const;
 	double getFirstResponseTime();
 	bool taskIsCompleted();
 	double getLatency();
-	bool isInterrupted();
+	bool isInterrupted() const;
 	void setInterrupted(bool);
 	void setInterruptRunTime(double);
 	std::vector<Burst> assignBursts();
@@ -44,8 +49,24 @@ public:
 	double getRemainingInterruptTime();
 	std::vector<int> getRequiredMemory();
 	int getMemSize();
-	bool operator>(Task) const;
-	bool operator<(Task) const;
+	bool operator>(const Task&) const;
+	bool operator<(const Task&) const;
+	double getAvgTime() const;
 };
+
+// struct Compare
+// {
+// 	bool operator>(const std::shared_ptr<Task>& tOne, const std::shared_ptr<Task>& tTwo) const
+// 	{
+// 		if (tOne->getBurstTime() > tTwo->getBurstTime()) return true;
+// 		return false;
+// 	}
+
+// 	bool operator<(const std::shared_ptr<Task>& tOne, const std::shared_ptr<Task>& tTwo) const
+// 	{
+// 		if (tOne->getBurstTime() < tTwo->getBurstTime()) return true;
+// 		return false;
+// 	}
+// };
 
 #endif

@@ -41,6 +41,7 @@ CMakeFiles/SchedulerSimulator.dir/sources/Processor.cpp.o
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/Processor.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/RRQueue.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/ReadyQueue.hpp
+ /home/kevin/Documents/CS3100/MemoryScheduling/headers/SJQueue.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/Scheduler.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/Task.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/sources/Processor.cpp
@@ -56,6 +57,10 @@ CMakeFiles/SchedulerSimulator.dir/sources/ReadyQueue.cpp.o
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/Task.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/sources/ReadyQueue.cpp
 CMakeFiles/SchedulerSimulator.dir/sources/SJQueue.cpp.o
+ /home/kevin/Documents/CS3100/MemoryScheduling/headers/Burst.hpp
+ /home/kevin/Documents/CS3100/MemoryScheduling/headers/ReadyQueue.hpp
+ /home/kevin/Documents/CS3100/MemoryScheduling/headers/SJQueue.hpp
+ /home/kevin/Documents/CS3100/MemoryScheduling/headers/Task.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/sources/SJQueue.cpp
 CMakeFiles/SchedulerSimulator.dir/sources/Scheduler.cpp.o
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/Burst.hpp
@@ -81,6 +86,7 @@ CMakeFiles/SchedulerSimulator.dir/sources/main.cpp.o
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/Processor.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/RRQueue.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/ReadyQueue.hpp
+ /home/kevin/Documents/CS3100/MemoryScheduling/headers/SJQueue.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/Scheduler.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/headers/Task.hpp
  /home/kevin/Documents/CS3100/MemoryScheduling/sources/main.cpp

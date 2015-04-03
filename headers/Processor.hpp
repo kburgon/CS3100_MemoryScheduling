@@ -4,6 +4,7 @@
 #include "Scheduler.hpp"
 #include "RRQueue.hpp"
 #include "ASJQueue.hpp"
+#include "SJQueue.hpp"
 #include <iostream>
 #include <algorithm>
 #include <vector>

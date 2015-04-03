@@ -9,6 +9,8 @@
 /home/kevin/Documents/CS3100/MemoryScheduling/headers/ASJQueue.hpp
 ReadyQueue.hpp
 /home/kevin/Documents/CS3100/MemoryScheduling/headers/ReadyQueue.hpp
+queue
+-
 
 /home/kevin/Documents/CS3100/MemoryScheduling/headers/Burst.hpp
 iostream
@@ -67,6 +69,8 @@ RRQueue.hpp
 /home/kevin/Documents/CS3100/MemoryScheduling/headers/RRQueue.hpp
 ASJQueue.hpp
 /home/kevin/Documents/CS3100/MemoryScheduling/headers/ASJQueue.hpp
+SJQueue.hpp
+/home/kevin/Documents/CS3100/MemoryScheduling/headers/SJQueue.hpp
 iostream
 -
 algorithm
@@ -92,6 +96,14 @@ vector
 iostream
 -
 
+/home/kevin/Documents/CS3100/MemoryScheduling/headers/SJQueue.hpp
+ReadyQueue.hpp
+/home/kevin/Documents/CS3100/MemoryScheduling/headers/ReadyQueue.hpp
+vector
+-
+queue
+-
+
 /home/kevin/Documents/CS3100/MemoryScheduling/headers/Scheduler.hpp
 iostream
 -
@@ -114,6 +126,10 @@ Burst.hpp
 iostream
 -
 vector
+-
+memory
+-
+algorithm
 -
 
 /home/kevin/Documents/CS3100/MemoryScheduling/sources/ASJQueue.cpp
@@ -153,6 +169,8 @@ vector
 /home/kevin/Documents/CS3100/MemoryScheduling/headers/ReadyQueue.hpp
 
 /home/kevin/Documents/CS3100/MemoryScheduling/sources/SJQueue.cpp
+../headers/SJQueue.hpp
+/home/kevin/Documents/CS3100/MemoryScheduling/headers/SJQueue.hpp
 
 /home/kevin/Documents/CS3100/MemoryScheduling/sources/Scheduler.cpp
 ../headers/Scheduler.hpp

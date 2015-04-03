@@ -18,6 +18,7 @@ MemManager::MemManager(int newMemSize, double setFaultCost)
 
 void MemManager::loadMemory(std::shared_ptr<Task> curTask)
 {
+	totalCost = 0;
 	if (memory.empty())
 	{
 		memory = curTask->getRequiredMemory();

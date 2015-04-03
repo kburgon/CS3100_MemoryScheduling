@@ -13,6 +13,8 @@ private:
 	bool burstInterrupted;
 	bool isIo;
 	std::vector<Burst> bursts;
+	int requiredMemSize;
+	std::vector<int> requiredMemory;
 	double createTime;
 	double latency;
 	int curBurstLoc;
@@ -22,6 +24,7 @@ private:
 	bool isCompleted;
 	double getRandomFloat();
 	int getRandomInt(int);
+	void generateMemReq();
 public:
 	Task(int, double, double);
 	int getBurstLoc();

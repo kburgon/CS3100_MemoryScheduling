@@ -27,7 +27,7 @@
 			"file": "headers/MemManager.hpp",
 			"settings":
 			{
-				"buffer_size": 409,
+				"buffer_size": 471,
 				"line_ending": "Unix"
 			}
 		},
@@ -35,7 +35,7 @@
 			"file": "headers/Task.hpp",
 			"settings":
 			{
-				"buffer_size": 986,
+				"buffer_size": 1005,
 				"line_ending": "Unix"
 			}
 		},
@@ -43,7 +43,7 @@
 			"file": "headers/Scheduler.hpp",
 			"settings":
 			{
-				"buffer_size": 1763,
+				"buffer_size": 1809,
 				"line_ending": "Unix"
 			}
 		},
@@ -164,26 +164,27 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 409,
+						"buffer_size": 471,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								294,
-								294
+								396,
+								396
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C++.tmLanguage"
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -198,15 +199,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 986,
+						"buffer_size": 1005,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								917,
-								917
+								929,
+								929
 							]
 						],
 						"settings":
@@ -215,10 +216,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 225.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -227,15 +228,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1763,
+						"buffer_size": 1809,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1036,
+								1036
 							]
 						],
 						"settings":
@@ -243,11 +244,11 @@
 							"syntax": "Packages/C++/C++.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": -0.0,
+						"translation.y": 405.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -353,7 +354,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 		"last_automatic_layout":

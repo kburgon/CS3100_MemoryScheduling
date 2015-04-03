@@ -66,3 +66,13 @@ void MemManager::pushPage(int toPush)
 	totalCost += faultCost;
 	++curPageLoc;
 }
+
+void MemManager::setMemSize(int newSize)
+{
+	memSize = newSize;
+}
+
+void MemManager::setPfCost(double newCost)
+{
+	faultCost = newCost;
+}

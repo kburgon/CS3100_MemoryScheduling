@@ -12,6 +12,8 @@ class MemManager
 public:
 	MemManager();
 	MemManager(int, double=0.5);
+	void setMemSize(int);
+	void setPfCost(double);
 	void loadMemory(std::shared_ptr<Task>);
 	double getPageFaultCost();
 private:

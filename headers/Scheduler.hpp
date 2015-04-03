@@ -61,6 +61,8 @@ public:
 	void setTaskCreateFreq(double setFreq);
 	void setCntxtSwitchCost(double setCost);
 	void setNumIoDevices(int numDevices);
+	void setMemSize(int);
+	void setPfCost(double);
 	void init();
 	void runSession();
 	Data getData();

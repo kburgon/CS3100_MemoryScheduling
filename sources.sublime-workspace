@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"cur",
+				"curPageLoc"
+			],
+			[
 				"n",
 				"n"
 			],
@@ -27,7 +31,15 @@
 			"file": "sources/MemManager.cpp",
 			"settings":
 			{
-				"buffer_size": 681,
+				"buffer_size": 1160,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sources/Processor.cpp",
+			"settings":
+			{
+				"buffer_size": 4657,
 				"line_ending": "Unix"
 			}
 		},
@@ -35,7 +47,7 @@
 			"file": "sources/Task.cpp",
 			"settings":
 			{
-				"buffer_size": 3622,
+				"buffer_size": 3725,
 				"line_ending": "Unix"
 			}
 		},
@@ -43,7 +55,7 @@
 			"file": "sources/Scheduler.cpp",
 			"settings":
 			{
-				"buffer_size": 8416,
+				"buffer_size": 8649,
 				"line_ending": "Unix"
 			}
 		}
@@ -114,7 +126,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -128,6 +140,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"cntxtSwitchCost",
 			"Task*"
 		],
 		"highlight": true,
@@ -156,78 +169,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 681,
+						"buffer_size": 1160,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								679,
-								679
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 297.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"file": "sources/Task.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3622,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3622,
-								3622
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2385.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "sources/Scheduler.cpp",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 8416,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								155,
-								155
+								262,
+								262
 							]
 						],
 						"settings":
@@ -239,7 +189,100 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sources/Processor.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4657,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2633,
+								2633
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "sources/Task.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3725,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3723,
+								3723
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2154.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sources/Scheduler.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8649,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4154,
+								4169
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2013.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

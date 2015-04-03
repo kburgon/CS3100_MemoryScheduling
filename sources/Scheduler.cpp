@@ -50,6 +50,16 @@ void Scheduler::setNumIoDevices(int numDevices)
 	numOfIoDevs = numDevices;
 }
 
+void Scheduler::setMemSize(int newSize)
+{
+	memRef.setMemSize(newSize);
+}
+
+void Scheduler::setPfCost(double newCost)
+{
+	memRef.setPfCost(newCost);
+}
+
 void Scheduler::init() // issue:  not adding context swith or page fault to init
 {
 	createTaskBinding();

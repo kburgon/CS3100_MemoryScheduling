@@ -32,6 +32,16 @@ Task::Task(int ioDevCnt, double cpuMultiplier, double ioMultiplier)
 	isCompleted = false;
 	burstInterrupted = false;
 	interruptTimeRemaining = -1;
+	requiredMemSize = 5;
+	generateMemReq();
+}
+
+void Task::generateMemReq()
+{
+	for (int n = 0; n < requiredMemSize; ++n)
+	{
+		requiredMemory.push_back(getRandomInt(10));
+	}
 }
 
 void Task::setCreateTime(double timeSet)
@@ -178,12 +188,13 @@ bool Task::operator<(Task toCompare) const
 
 std::vector<int> Task::getRequiredMemory()
 {
-	std::vector<int> testMem(10, 5);
-	return testMem;
+	// std::vector<int> testMem(10, 5);
+	return requiredMemory;
 }
 
 int Task::getMemSize()
 {
-	std::vector<int> testMem(10, 5);
-	return testMem.size();
+	// std::vector<int> testMem(10, 5);
+	// return testMem.size();
+	return requiredMemSize;
 }

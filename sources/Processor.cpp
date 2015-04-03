@@ -63,6 +63,13 @@ void Processor::startShell()
 			std::cout << "Round robin interrupt time: ";
 			std::cin >> setInterruptTime;
 			std::cout << "Variables set.\n";
+
+			std::cout << "Memory size: ";
+			std::cin >> setInt;
+			mainScheduler.setMemSize(setInt);
+			std::cout << "Page fault length: ";
+			std::cin >> setFloat;
+			mainScheduler.setPfCost(setFloat);
 		}
 		else if (cmd == "run")
 		{

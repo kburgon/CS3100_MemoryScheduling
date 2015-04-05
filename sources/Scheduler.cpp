@@ -347,3 +347,8 @@ double Scheduler::getAvgVal(std::vector<double> valList)
 	auto sum = std::accumulate(valList.cbegin(), valList.cend(), 0);
     return sum / static_cast<double>(valList.size());
 }
+
+void Scheduler::setReadyQueue(std::shared_ptr<ReadyQueue> setQueue)
+{
+	rQueue = setQueue;
+}

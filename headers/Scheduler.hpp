@@ -56,6 +56,7 @@ private:
 public:
 	Scheduler();
 	Scheduler(std::shared_ptr<ReadyQueue>);
+	void setReadyQueue(std::shared_ptr<ReadyQueue>);
 	void setNumCpus(int numToSet);
 	void setPercentCpuIo(double setPercent);
 	void setTaskCreateFreq(double setFreq);

@@ -7,33 +7,6 @@ void ASJQueue::pushTask(std::shared_ptr<Task> curTask)
 
 std::shared_ptr<Task> ASJQueue::pullTask()
 {
-	// std::cout << "This is being done in round robin\n";
-	// std::shared_ptr<Task> toPull = readyList[0];
-	// readyList.erase(readyList.begin());
-	// // timeAvg.push_back(toPull->getBurstTime());
-	// // allowedTime = calcAvg();
-	// double taskTime;
-	// if (toPull->isInterrupted())
-	// {
-	// 	taskTime = toPull->getRemainingInterruptTime();
-	// 	toPull->setInterrupted(false);
-	// }
-	// else
-	// {
-	// 	taskTime = toPull->getBurstTime();
-	// }
-	// if (taskTime > allowedTime)
-	// {
-	// 	toPull->setInterruptRunTime(allowedTime);
-	// 	toPull->setInterrupted(true);
-	// 	toPull->setRemainingInterruptTime(taskTime - allowedTime);
-	// 	pushTask(toPull);
-	// }
-	// else
-	// {
-	// 	toPull->setInterrupted(false);
-	// }
-
 	std::shared_ptr<Task> toPull = readyList.top();
 	readyList.pop();
 	return toPull;

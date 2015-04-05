@@ -36,34 +36,10 @@
 			}
 		},
 		{
-			"file": "headers/Processor.hpp",
+			"file": "headers/SJQueue.hpp",
 			"settings":
 			{
-				"buffer_size": 534,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/kevin/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 118,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "headers/Task.hpp",
-			"settings":
-			{
-				"buffer_size": 1085,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "headers/Scheduler.hpp",
-			"settings":
-			{
-				"buffer_size": 1857,
+				"buffer_size": 591,
 				"line_ending": "Unix"
 			}
 		},
@@ -71,20 +47,39 @@
 			"file": "headers/ASJQueue.hpp",
 			"settings":
 			{
-				"buffer_size": 376,
+				"buffer_size": 521,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "headers/Task.hpp",
+			"settings":
+			{
+				"buffer_size": 1669,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "headers/Processor.hpp",
+			"settings":
+			{
+				"buffer_size": 742,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "headers/Scheduler.hpp",
+			"settings":
+			{
+				"buffer_size": 1907,
 				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "",
-	"build_system_choices":
-	[
-	],
-	"build_varint": "",
 	"command_palette":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -112,8 +107,8 @@
 	],
 	"file_history":
 	[
-		"/opt/lampp/htdocs/nileinventorysystems/template.php",
 		"/home/kevin/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/opt/lampp/htdocs/nileinventorysystems/template.php",
 		"/home/kevin/Documents/USUb/Poseidon/virtualAPI/vvTestRun.rb",
 		"/home/kevin/Documents/USUb/testCode.rb",
 		"/home/kevin/Documents/USUb/Poseidon/virtualAPI/virtualVision.rb",
@@ -147,7 +142,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -158,9 +153,10 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"timeAvg",
 			"Task*"
 		],
 		"highlight": true,
@@ -180,7 +176,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -209,24 +205,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "headers/Processor.hpp",
-					"semi_transient": true,
+					"file": "headers/SJQueue.hpp",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 534,
+						"buffer_size": 591,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								385,
+								385
 							]
 						],
 						"settings":
@@ -238,29 +234,29 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "/home/kevin/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+					"file": "headers/ASJQueue.hpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 118,
+						"buffer_size": 521,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								86,
-								86
+								480,
+								480
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+							"syntax": "Packages/C++/C++.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -281,15 +277,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1085,
+						"buffer_size": 1669,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								34,
-								34
+								1240,
+								1240
 							]
 						],
 						"settings":
@@ -298,27 +294,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 315.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "headers/Scheduler.hpp",
+					"file": "headers/Processor.hpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1857,
+						"buffer_size": 742,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1518,
-								1518
+								375,
+								375
 							]
 						],
 						"settings":
@@ -327,38 +323,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 450.0,
+						"translation.y": 45.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "headers/ASJQueue.hpp",
-					"semi_transient": true,
+					"file": "headers/Scheduler.hpp",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 376,
+						"buffer_size": 1907,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1326,
+								1326
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C++.tmLanguage"
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 405.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -406,7 +403,6 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
 	"project": "headers.sublime-project",
 	"replace":
 	{
@@ -416,7 +412,6 @@
 	"select_file":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -425,7 +420,6 @@
 	"select_project":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -434,13 +428,12 @@
 	"select_symbol":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 		"last_automatic_layout":

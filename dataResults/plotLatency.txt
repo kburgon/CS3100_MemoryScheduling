@@ -1,0 +1,12 @@
+set style histogram
+set style fill solid
+set title "Latency - Low Memory"
+plot '../latResult.dat' using 2 with histograms
+set title "Response Time - Low Memory"
+plot '../rtResult.dat' using 2 with histograms
+set title "CPU Utilization - Low Memory"
+plot '../cutilResult.dat' using 2 with histograms
+set title "IO Utilization - Low Memory"
+plot '../iutilResult.dat' using 2 with histograms
+set title "Throughput - Low Memory"
+plot '../thResult.dat' using 2 with histograms

@@ -10,16 +10,26 @@
 #include <vector>
 #include <string>
 #include <memory>
+#include <fstream>
 // #include <sstream>
 
 class Processor
 {
 private:
+	int latPlot;
+	int rtPlot;
+	int cutilPlot;
+	int iutilPlot;
+	int thPlot;
 	double setInterruptTime;
 	Scheduler mainScheduler;
+	Scheduler roundRScheduler;
+	Scheduler ASJScheduler;
+	Scheduler sjScheduler;
 	Data sessionResults;
 	Data roundResults;
 	Data asjResults;
+	Data sjResults;
 public:
 	Processor();
 	void startShell();
